@@ -1,0 +1,1 @@
+!function(n){for(var o=[],t=0;t<n.length;t++)-1==o.indexOf(n[t])&&o.push(n[t]);console.log(o.sort(function(n,o){return n-o}))}([1,2,3,4,56,2,1,345,3]),function(n){for(var o=[],t=n.length-1;t>=0;t--)-1==o.indexOf(n[t])&&o.unshift(n[t]);console.log(o.sort(function(n,o){return n-o}))}([1,2,3,4,56,2,1,345,3]);
